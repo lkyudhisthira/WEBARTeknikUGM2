@@ -31,7 +31,7 @@
             if (intersection) {
                 // Membuat entitas model baru
                 const model = document.createElement('a-entity');
-                model.setAttribute('gltf-model', 'url(assets/fakultasteknik4.glb)'); // Ganti dengan path model GLB Anda
+                model.setAttribute('gltf-model', 'url(https://raw.githubusercontent.com/<lkyudhisthira>/<WEBARTeknikUGM2>/main/assets/fakultasteknik4.glb)');
                 model.setAttribute('scale', '2 2 2'); // Skala model
                 model.setAttribute('position', `${intersection.point.x} ${intersection.point.y} ${intersection.point.z}`);
                 modelContainer.appendChild(model); // Menambahkan model ke container
